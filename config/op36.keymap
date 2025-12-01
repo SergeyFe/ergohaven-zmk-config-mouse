@@ -52,6 +52,12 @@
             bindings = <&kp RBKT>;
             key-positions = <7 8>;
         };
+
+        combo_mouse {
+            bindings = <&tog 4>;
+            key-positions = <30 35>;
+            layers = <4>;
+        };
     };
 
     keymap {
